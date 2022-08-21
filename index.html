@@ -40,167 +40,194 @@
 
     <!-- main section start -->
     <main class="container mt-5">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
 
-            <!-- Messi card -->
-            <div class="col">
-                <div class="card bg-black text-white text-center border border-secondary" style="border-radius: 0 ;">
-                    <img class="img-fluid" src="img/messi.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lionel Messi</h5>
-                        <p class="card-text">
-                        <div class="d-flex align-items-center justify-content-evenly text-white-50">
-                            <p>30 Goals</p>
-                            <p>&bull;</p>
-                            <p>120 Assist</p>
+        <div class="row">
+
+            <!-- players card -->
+            <div class="col-9">
+                <div id="all-players-container" class="row row-cols-3 g-4">
+                    <!-- Messi card -->
+                    <div class="col">
+                        <div class="card bg-black text-white text-center border border-secondary"
+                            style="border-radius: 0 ;">
+                            <img class="img-fluid" src="img/messi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="messi" class="card-title">Lionel Messi</h5>
+                                <p class="card-text">
+                                <div class="d-flex align-items-center justify-content-evenly text-white-50">
+                                    <p>30 Goals</p>
+                                    <p>&bull;</p>
+                                    <p>120 Assist</p>
+                                </div>
+                                </p>
+                                <button id="messi-btn" class="btn btn-primary">Select</button>
+                            </div>
                         </div>
-                        </p>
-                        <button class="btn btn-primary">Select</button>
                     </div>
+
+                    <!-- Neymar Card  -->
+                    <div class="col">
+                        <div class="card bg-black text-white text-center border border-secondary"
+                            style="border-radius: 0 ;">
+                            <img class="img-fluid" src="img/neymar.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="neymar" class="card-title">Neymar Jr</h5>
+                                <p class="card-text">
+                                <div class="d-flex align-items-center justify-content-evenly text-white-50">
+                                    <p>28 Goals</p>
+                                    <p>&bull;</p>
+                                    <p>110 Assist</p>
+                                </div>
+                                </p>
+                                <button id="neymar-btn" class="btn btn-primary">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mbappé Card  -->
+                    <div class="col">
+                        <div class="card bg-black text-white text-center border border-secondary"
+                            style="border-radius: 0 ;">
+                            <img class="img-fluid" src="img/mbappe2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="mbappe" class="card-title">Kylian Mbappé</h5>
+                                <p class="card-text">
+                                <div class="d-flex align-items-center justify-content-evenly text-white-50">
+                                    <p>20 Goals</p>
+                                    <p>&bull;</p>
+                                    <p>90 Assist</p>
+                                </div>
+                                </p>
+                                <button id="mbappe-btn" class="btn btn-primary">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vítor Machado card -->
+                    <div class="col">
+                        <div class="card bg-black text-white text-center border border-secondary"
+                            style="border-radius: 0 ;">
+                            <img class="img-fluid" src="img/vitor.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="vitore" class="card-title">Vítor Machado</h5>
+                                <p class="card-text">
+                                <div class="d-flex align-items-center justify-content-evenly text-white-50">
+                                    <p>21 Goals</p>
+                                    <p>&bull;</p>
+                                    <p>100 Assist</p>
+                                </div>
+                                </p>
+                                <button id="vitore-btn" class="btn btn-primary">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sergio Ramos card -->
+                    <div class="col">
+                        <div class="card bg-black text-white text-center border border-secondary"
+                            style="border-radius: 0 ;">
+                            <img class="img-fluid" src="img/ramos.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="ramos" class="card-title">Sergio Ramos</h5>
+                                <p class="card-text">
+                                <div class="d-flex align-items-center justify-content-evenly text-white-50">
+                                    <p>24 Goals</p>
+                                    <p>&bull;</p>
+                                    <p>105 Assist</p>
+                                </div>
+                                </p>
+                                <button id="ramos-btn" class="btn btn-primary">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Renato Sanches card -->
+                    <div class="col">
+                        <div class="card bg-black text-white text-center border border-secondary"
+                            style="border-radius: 0 ;">
+                            <img class="img-fluid" src="img/renato.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 id="renato" class="card-title">Renato Sanches</h5>
+                                <p class="card-text">
+                                <div class="d-flex align-items-center justify-content-evenly text-white-50">
+                                    <p>22 Goals</p>
+                                    <p>&bull;</p>
+                                    <p>100 Assist</p>
+                                </div>
+                                </p>
+                                <button id="renato-btn" class="btn btn-primary">Select</button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <!-- Neymar Card  -->
-            <div class="col">
-                <div class="card bg-black text-white text-center border border-secondary" style="border-radius: 0 ;">
-                    <img class="img-fluid" src="img/neymar.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Neymar Jr</h5>
-                        <p class="card-text">
-                        <div class="d-flex align-items-center justify-content-evenly text-white-50">
-                            <p>30 Goals</p>
-                            <p>&bull;</p>
-                            <p>120 Assist</p>
+            <!-- selected-v and budget part -->
+            <div class="col-3">
+                <div class="row row-cols-1 g-4">
+
+                    <!-- Selected-V card -->
+                    <div class="col">
+                        <div class="card bg-black text-white  border border-secondary" style="border-radius: 0 ;">
+                            <h4 class="text-center pt-4 pb-5">Selected - V</h4>
+                            <ol id="player-name-container" class="lh-lg">
+                                <li id="Player-1" class="fs-4 player-name">Player-1</li>
+                                <li id="Player-2" class="fs-4 player-name">Player-2</li>
+                                <li id="Player-3" class="fs-4 player-name">Player-3</li>
+                                <li id="Player-4" class="fs-4 player-name">Player-4</li>
+                                <li id="Player-5" class="fs-4 player-name">Player-5</li>
+                            </ol>
                         </div>
-                        </p>
-                        <button class="btn btn-primary">Select</button>
                     </div>
+
+                    <!-- Budget Calcualtion  -->
+                    <div class="col">
+                        <div class="card bg-black text-white text-center border border-secondary"
+                            style="border-radius: 0 ;">
+                            <h4 class="text-center pt-4 pb-5">Budget</h4>
+
+                            <div class="mb-3 row p-2">
+                                <label class="col-5 col-form-label text-secondary">Per Player</label>
+                                <div class="col-7">
+                                    <input id="per-player-cost" type="text" class="form-control bg-black text-white"
+                                        id="">
+                                </div>
+                            </div>
+
+                            <button id="total-cost-of-five-players-btn"
+                                class="btn btn-primary mx-2 mb-3">Calculate</button>
+
+                            <div class="d-flex align-items-center justify-content-around">
+                                <p class="text-secondary">Player Expenses</p>
+                                <p>$ <span id="players-expenses-amount">0000</span></p>
+                            </div>
+
+                            <div class="mb-3 row p-2">
+                                <label class="col-5 col-form-label text-secondary">Manager</label>
+                                <div class="col-7">
+                                    <input id="manager-cost" type="text" class="form-control bg-black text-white" id="">
+                                </div>
+                            </div>
+
+                            <div class="mb-3 row p-2">
+                                <label class="col-5 col-form-label text-secondary">Coach</label>
+                                <div class="col-7">
+                                    <input id="coach-cost" type="text" class="form-control bg-black text-white" id="">
+                                </div>
+                            </div>
+
+                            <button id="total-cost-btn" class="btn btn-primary mx-2 mb-3">Calculate Total</button>
+                            <div class="d-flex align-items-center justify-content-around">
+                                <p class="text-secondary">Total</p>
+                                <p style="color: #FF5E19;">$ <span id="total-amount">0000</span></p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
-            <!-- Mbappé Card  -->
-            <div class="col">
-                <div class="card bg-black text-white text-center border border-secondary" style="border-radius: 0 ;">
-                    <img class="img-fluid" src="img/mbappe2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Kylian Mbappé</h5>
-                        <p class="card-text">
-                        <div class="d-flex align-items-center justify-content-evenly text-white-50">
-                            <p>30 Goals</p>
-                            <p>&bull;</p>
-                            <p>120 Assist</p>
-                        </div>
-                        </p>
-                        <button class="btn btn-primary">Select</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Selected-V card -->
-            <div class="col">
-                <div class="card bg-black text-white  border border-secondary" style="border-radius: 0 ;">
-                    <h4 class="text-center pt-4 pb-5">Selected - V</h4>
-                    <ol class="lh-lg">
-                        <li class="fs-4">Player-1</li>
-                        <li class="fs-4">Player-2</li>
-                        <li class="fs-4">Player-3</li>
-                        <li class="fs-4">Player-4</li>
-                        <li class="fs-4">Player-5</li>
-                    </ol>
-                </div>
-            </div>
-
-            <!-- Vítor Machado card -->
-            <div class="col">
-                <div class="card bg-black text-white text-center border border-secondary" style="border-radius: 0 ;">
-                    <img class="img-fluid" src="img/vitor.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Vítor Machado</h5>
-                        <p class="card-text">
-                        <div class="d-flex align-items-center justify-content-evenly text-white-50">
-                            <p>30 Goals</p>
-                            <p>&bull;</p>
-                            <p>120 Assist</p>
-                        </div>
-                        </p>
-                        <button class="btn btn-primary">Select</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sergio Ramos card -->
-            <div class="col">
-                <div class="card bg-black text-white text-center border border-secondary" style="border-radius: 0 ;">
-                    <img class="img-fluid" src="img/ramos.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Sergio Ramos</h5>
-                        <p class="card-text">
-                        <div class="d-flex align-items-center justify-content-evenly text-white-50">
-                            <p>30 Goals</p>
-                            <p>&bull;</p>
-                            <p>120 Assist</p>
-                        </div>
-                        </p>
-                        <button class="btn btn-primary">Select</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Renato Sanches card -->
-            <div class="col">
-                <div class="card bg-black text-white text-center border border-secondary" style="border-radius: 0 ;">
-                    <img class="img-fluid" src="img/renato.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Renato Sanches</h5>
-                        <p class="card-text">
-                        <div class="d-flex align-items-center justify-content-evenly text-white-50">
-                            <p>30 Goals</p>
-                            <p>&bull;</p>
-                            <p>120 Assist</p>
-                        </div>
-                        </p>
-                        <button class="btn btn-primary">Select</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Budget Calcualtion  -->
-            <div class="col">
-                <div class="card bg-black text-white text-center border border-secondary" style="border-radius: 0 ;">
-                    <h4 class="text-center pt-4 pb-5">Budget</h4>
-
-                    <div class="mb-3 row p-2">
-                        <label class="col-5 col-form-label text-secondary">Per Player</label>
-                        <div class="col-7">
-                            <input type="text" class="form-control bg-black text-white" id="">
-                        </div>
-                    </div>
-
-                    <button class="btn btn-primary mx-2 mb-3">Calculate</button>
-
-                    <div class="d-flex align-items-center justify-content-around">
-                        <p class="text-secondary">Player Expenses</p>
-                        <p>$ <span>0000</span></p>
-                    </div>
-                    <div class="mb-3 row p-2">
-                        <label class="col-5 col-form-label text-secondary">Manager</label>
-                        <div class="col-7">
-                            <input type="text" class="form-control bg-black text-white" id="">
-                        </div>
-                    </div>
-                    <div class="mb-3 row p-2">
-                        <label class="col-5 col-form-label text-secondary">Coach</label>
-                        <div class="col-7">
-                            <input type="text" class="form-control bg-black text-white" id="">
-                        </div>
-                    </div>
-                    <button class="btn btn-primary mx-2 mb-3">Calculate Total</button>
-                    <div class="d-flex align-items-center justify-content-around">
-                        <p class="text-secondary">Total</p>
-                        <p style="color: #FF5E19;">$ <span>0000</span></p>
-                    </div>
-                </div>
-            </div>
+        </div>
     </main>
     <!-- main section ends -->
 
@@ -215,8 +242,8 @@
 
     <!-- bootstrap script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <!-- script ends  -->
 </body>
 
