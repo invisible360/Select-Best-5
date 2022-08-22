@@ -1,5 +1,7 @@
 function playerListCheck(idName) {
     const playersList = document.querySelectorAll('li')
+
+    //placing name in selected-v list
     for (let i = 1; i <= playersList.length; i++) {
         if (playersList[i - 1].innerText.includes('Player-' + i + '')) {
             const getId = playersList[i - 1].getAttribute('id');
@@ -9,6 +11,9 @@ function playerListCheck(idName) {
             break;
         }
     }
+
+    //validation for more than 5 players selection
+
     // convert array like object to original array 
     const updatedPlayerListArray = [];
     for (let i = 0; i < playersList.length; i++) {

@@ -1,3 +1,4 @@
+//Player Selection code
 let count2 = 0;
 document.getElementById('all-players-container').addEventListener('click', function (event) {
     const selectBtnElement = event.target;
@@ -27,6 +28,5 @@ document.getElementById('all-players-container').addEventListener('click', funct
     else if ((selectBtnText === 'Select') && (playerNameLowerCase.includes('renato'))) {
         playerListCheck('renato');
     }
-
 
 });
