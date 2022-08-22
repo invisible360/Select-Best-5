@@ -9,6 +9,26 @@ function playerListCheck(idName) {
             break;
         }
     }
+    // convert array like object to original array 
+    const updatedPlayerListArray = [];
+    for (let i = 0; i < playersList.length; i++) {
+        updatedPlayerListArray.push(playersList[i].innerText.toLowerCase());
+    }
+
+    let count = 0;
+    for (let i = 0; i < updatedPlayerListArray.length; i++) {
+        if (updatedPlayerListArray[i].includes('player') === false) {
+            count++;
+            console.log(count);
+            if (count === 5) {
+                count2++;
+                console.log(count2);
+                if (count2 > 1) {
+                    alert('5 Players Already Selected');
+                }
+            }
+        }
+    }
 }
 
 function getText (id) {
