@@ -19,5 +19,7 @@ function getText (id) {
 
 function setText (id, value) {
     const setTextElement = document.getElementById (id);
+    setTextElement.classList.remove('text-secondary');
+    setTextElement.classList.add('text-white');
     setTextElement.innerText = value;
 }
