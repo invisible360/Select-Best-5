@@ -18,7 +18,7 @@ function playerListCheck(idName) {
     }
 
     //validation for more than 5 players selection
-    const myArray = coverArrayLikeObjectToArray (playersList)
+    const myArray = coverArrayLikeObjectToArray (playersList);
     
     let count = 0;
     for (let i = 0; i < myArray.length; i++) {
@@ -61,7 +61,6 @@ function getInputValueAsNumber (id) {
     const inputElement = document.getElementById (id);
     const inputVlueString = inputElement.value;
     const inputValue = parseFloat (inputVlueString);
-    // inputElement.value ='';
     return inputValue;
 }
 

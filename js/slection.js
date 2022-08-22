@@ -28,5 +28,8 @@ document.getElementById('all-players-container').addEventListener('click', funct
     else if ((selectBtnText === 'Select') && (playerNameLowerCase.includes('renato'))) {
         playerListCheck('renato');
     }
+    else {
+        alert ('Please Click on any Active Select Button');
+    }
 
 });
